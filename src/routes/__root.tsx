@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "CHAVA — Kosher Interiors for Jewish Homes" },
+      { name: "description", content: "Builds elegant, minimalist landing pages for interior and furniture design brands." },
+      { property: "og:description", content: "Builds elegant, minimalist landing pages for interior and furniture design brands." },
+      { name: "twitter:description", content: "Builds elegant, minimalist landing pages for interior and furniture design brands." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b7bfcf1f-1106-4be7-abbe-625f6ba62b9c/id-preview-2183776c--49d0cdcb-3695-48ed-ae4a-293cd143a19b.lovable.app-1780669632113.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b7bfcf1f-1106-4be7-abbe-625f6ba62b9c/id-preview-2183776c--49d0cdcb-3695-48ed-ae4a-293cd143a19b.lovable.app-1780669632113.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
