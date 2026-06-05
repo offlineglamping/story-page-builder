@@ -1,28 +1,21 @@
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import hotWaterUrn from "@/assets/uploaded/hot-water-urn.png";
-import hotplate from "@/assets/uploaded/hotplate.png";
 import netilatYadayim from "@/assets/uploaded/netilat-yadayim.png";
 import pesachStorage from "@/assets/uploaded/pesach-storage.png";
 import shabbatPrep from "@/assets/uploaded/shabbat-prep.png";
-
-import garden from "@/assets/uploaded/garden.png";
 import candles from "@/assets/uploaded/candles.png";
 import kiddush from "@/assets/uploaded/kiddush.png";
 import shabbatRest from "@/assets/uploaded/shabbat-rest.png";
-import torahStudy from "@/assets/uploaded/torah-study.png";
 
 const slides = [
   { src: shabbatPrep, title: "Shabbat Prep" },
-  { src: candles, title: "Shabbat Candles" },
-  { src: kiddush, title: "Kiddush" },
-  { src: hotplate, title: "Hotplate" },
-  { src: hotWaterUrn, title: "Hot Water Urn" },
   { src: netilatYadayim, title: "Netilat Yadayim" },
   { src: pesachStorage, title: "Pesach Storage" },
-  { src: garden, title: "Garden & Sukkah" },
+  { src: kiddush, title: "Kiddush" },
+  { src: hotWaterUrn, title: "Hot Water Urn" },
   { src: shabbatRest, title: "Shabbat Rest" },
-  { src: torahStudy, title: "Torah Study" },
+  { src: candles, title: "Shabbat Candles" },
 ];
 
 const VISIBLE = 3;
