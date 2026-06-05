@@ -54,7 +54,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-8">
           <div className="relative overflow-hidden rounded-sm bg-muted aspect-[4/3]">
             {slides.map((s, i) => (
               <img
