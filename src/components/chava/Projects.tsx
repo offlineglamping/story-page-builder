@@ -1,6 +1,6 @@
 import { SectionLabel } from "./SectionLabel";
-import kitchen from "@/assets/uploaded/kuchnia-bez-opsu.jpg";
-import kitchenAnnotated from "@/assets/uploaded/kuchnia-z-opisem.jpg";
+import kitchen from "@/assets/uploaded/main-kitchen.png";
+import kitchenAnnotated from "@/assets/uploaded/main-pantry.png";
 import shabbat from "@/assets/uploaded/shabbat-prep.jpg";
 import pesach from "@/assets/uploaded/pesach-storage.jpg";
 import netilat from "@/assets/uploaded/netilat-yadayim.jpg";
