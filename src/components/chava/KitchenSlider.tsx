@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import k1 from "@/assets/uploaded/kuchnia-1.png";
-import k2 from "@/assets/uploaded/kuchnia-2.png";
+import mainKitchen from "@/assets/uploaded/main-kitchen.png";
+import sliderKitchen from "@/assets/uploaded/slider-kitchen.png";
 import k3 from "@/assets/uploaded/kuchnia-3.png";
 import k4 from "@/assets/uploaded/kuchnia-4.png";
 import k5 from "@/assets/uploaded/kuchnia-5.png";
@@ -9,7 +9,7 @@ import k6 from "@/assets/uploaded/kuchnia-6.png";
 import k7 from "@/assets/uploaded/kuchnia-7.png";
 import k8 from "@/assets/uploaded/kuchnia-8.png";
 
-const images = [k1, k2, k3, k4, k5, k6, k7, k8];
+const images = [mainKitchen, sliderKitchen, k3, k4, k5, k6, k7, k8];
 
 export function KitchenSlider() {
   const [i, setI] = useState(0);
