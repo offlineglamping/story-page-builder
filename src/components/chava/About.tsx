@@ -41,31 +41,6 @@ export function About() {
               spaces that support family rituals, comfort, beauty and a sense of order.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-6 pt-4">
-              <article className="border-t border-border pt-6">
-                <h3 className="font-serif text-2xl text-foreground mb-3">
-                  Kosher design
-                </h3>
-                <p className="text-sm leading-relaxed">
-                  Organising the home around Jewish life: separation of meat and dairy,
-                  Shabbat preparation, Pesach storage, family meals, hospitality and
-                  the quiet care of ritual objects.
-                </p>
-              </article>
-              <article className="border-t border-border pt-6">
-                <h3 className="font-serif text-2xl text-foreground mb-3">Minhagim</h3>
-                <p className="text-sm leading-relaxed">
-                  Jewish customs and inherited practices that shape daily life,
-                  holidays, meals, prayer, hospitality and the rhythm of the Jewish
-                  home.
-                </p>
-              </article>
-            </div>
-
-            <p className="pt-2 italic text-sm">
-              Chava Interiors is created with deep respect for Jewish tradition and a
-              human-centred approach to the needs of every family.
-            </p>
           </div>
         </div>
       </div>
