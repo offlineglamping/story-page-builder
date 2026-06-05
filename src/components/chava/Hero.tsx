@@ -24,7 +24,7 @@ export function Hero() {
   return (
     <section id="home" className="relative pt-28 lg:pt-36 pb-20 lg:pb-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-10 lg:gap-14 items-start">
-        <div className="lg:col-span-5">
+        <div className="lg:col-span-4">
           <p className="text-[11px] tracking-[0.32em] uppercase text-muted-foreground mb-8">
             Bespoke Furniture · European Craftsmanship
           </p>
