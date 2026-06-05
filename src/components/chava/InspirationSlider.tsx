@@ -5,7 +5,7 @@ import hotplate from "@/assets/uploaded/hotplate.png";
 import netilatYadayim from "@/assets/uploaded/netilat-yadayim.png";
 import pesachStorage from "@/assets/uploaded/pesach-storage.png";
 import shabbatPrep from "@/assets/uploaded/shabbat-prep.png";
-import blech from "@/assets/uploaded/blech.png";
+
 import garden from "@/assets/uploaded/garden.png";
 import candles from "@/assets/uploaded/candles.png";
 import kiddush from "@/assets/uploaded/kiddush.png";
@@ -16,7 +16,6 @@ const slides = [
   { src: shabbatPrep, title: "Shabbat Prep" },
   { src: candles, title: "Shabbat Candles" },
   { src: kiddush, title: "Kiddush" },
-  { src: blech, title: "Blech" },
   { src: hotplate, title: "Hotplate" },
   { src: hotWaterUrn, title: "Hot Water Urn" },
   { src: netilatYadayim, title: "Netilat Yadayim" },
