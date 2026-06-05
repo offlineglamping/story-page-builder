@@ -1,6 +1,7 @@
 import { SectionLabel } from "./SectionLabel";
 import { KitchenSlider } from "./KitchenSlider";
 import { DiningSlider } from "./DiningSlider";
+import { LivingSlider } from "./LivingSlider";
 
 export function Projects() {
   return (
@@ -106,12 +107,46 @@ export function Projects() {
           <DiningSlider />
         </article>
 
-        {/* Space 3 — placeholder */}
+        {/* Space 3 — Seforim & Family Living Collection */}
         <article className="border-t border-border pt-12 mt-20">
-          <h3 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
-            Space 3
+          <h3 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
+            Seforim & Family Living Collection
           </h3>
-          <p className="text-muted-foreground italic">Content coming soon.</p>
+          <p className="font-serif text-xl md:text-2xl text-foreground/90 italic mb-8">
+            A bespoke living room collection designed for Torah learning,
+            Shabbat rest and Jewish family life.
+          </p>
+          <div className="space-y-5 text-muted-foreground leading-relaxed max-w-3xl">
+            <p>
+              The Seforim & Family Living Collection is created for observant
+              Jewish homes where the living room is more than a place to sit.
+              It is a space for seforim, limmud Torah, family conversation,
+              Shabbat menuchah and quiet hospitality.
+            </p>
+            <p>
+              At the centre of the design is the Seforim Library — strong,
+              elegant shelving for sacred books such as Chumash, Mishnah,
+              Gemara, Siddurim, Tehillim and family Judaica. A dedicated
+              learning corner with a comfortable chair, focused lighting and a
+              small writing surface invites daily Torah study.
+            </p>
+            <p>
+              Around it, the room is composed for family life: deep seating
+              for Shabbat afternoons, soft textiles, calm tones and discreet
+              storage for games, blankets and everyday objects. A refined
+              Judaica display cabinet holds the Havdalah set, besamim box,
+              braided candle, candlesticks, kiddush cups and family silver.
+              Every object has a respectful place, ready for Shabbat, Yom Tov
+              and the rhythm of the Jewish year.
+            </p>
+            <p>
+              Designed with natural oak, warm stone, brushed brass, soft
+              upholstery and integrated lighting, the collection creates a
+              living room that feels elegant, modest and deeply intentional.
+            </p>
+          </div>
+
+          <LivingSlider />
         </article>
       </div>
     </section>
