@@ -1,18 +1,48 @@
 import { SectionLabel } from "./SectionLabel";
-import kitchen from "@/assets/project-kitchen.jpg";
-import shabbat from "@/assets/project-shabbat.jpg";
-import pesach from "@/assets/project-pesach.jpg";
+import kitchen from "@/assets/uploaded/kuchnia-bez-opsu.jpg";
+import kitchenAnnotated from "@/assets/uploaded/kuchnia-z-opisem.jpg";
+import shabbat from "@/assets/uploaded/shabbat-prep.jpg";
+import pesach from "@/assets/uploaded/pesach-storage.jpg";
+import netilat from "@/assets/uploaded/netilat-yadayim.jpg";
 import dining from "@/assets/project-dining.jpg";
-import ritual from "@/assets/project-ritual.jpg";
 import sukkot from "@/assets/project-sukkot.jpg";
 
 const projects = [
-  { title: "Kosher Family Kitchen", caption: "Two zones, one harmony — meat and dairy as architecture.", img: kitchen },
-  { title: "Shabbat Prep Wall", caption: "A dedicated wall for candles, challah and the rhythm of Friday.", img: shabbat },
-  { title: "Pesach Storage System", caption: "An enclosed, year-round pantry that opens once for Pesach.", img: pesach },
-  { title: "Hospitality Dining Room", caption: "Geometry designed for guests — extendable, generous, calm.", img: dining },
-  { title: "Ritual Storage Cabinet", caption: "Soft-lit display and lined drawers for treasured objects.", img: ritual },
-  { title: "Sukkot & Seasonal Storage", caption: "Tall, ventilated storage for the holidays of the year.", img: sukkot },
+  {
+    title: "Kosher Family Kitchen",
+    caption: "Two zones, one harmony — meat and dairy as architecture.",
+    img: kitchen,
+  },
+  {
+    title: "Kitchen, Annotated",
+    caption: "Every drawer, every distance — designed around real kosher routines.",
+    img: kitchenAnnotated,
+  },
+  {
+    title: "Shabbat Prep Wall",
+    caption: "A dedicated wall for candles, challah and the rhythm of Friday.",
+    img: shabbat,
+  },
+  {
+    title: "Pesach Storage System",
+    caption: "An enclosed, year-round pantry that opens once for Pesach.",
+    img: pesach,
+  },
+  {
+    title: "Netilat Yadayim Station",
+    caption: "A handwashing basin at the threshold of the dining room.",
+    img: netilat,
+  },
+  {
+    title: "Hospitality Dining Room",
+    caption: "Geometry designed for guests — extendable, generous, calm.",
+    img: dining,
+  },
+  {
+    title: "Sukkot & Seasonal Storage",
+    caption: "Tall, ventilated storage for the holidays of the year.",
+    img: sukkot,
+  },
 ];
 
 export function Projects() {
@@ -25,8 +55,8 @@ export function Projects() {
             Selected work, in service of daily life.
           </h2>
           <p className="lg:col-span-5 text-muted-foreground leading-relaxed self-end">
-            A few of the rooms and pieces we design — each shaped by the family who lives
-            with it.
+            A few of the rooms and pieces we design — each shaped by the family who
+            lives with it.
           </p>
         </div>
 

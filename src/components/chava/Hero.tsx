@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/uploaded/kuchnia-z-opisem.jpg";
 
 export function Hero() {
   return (
@@ -6,29 +6,30 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
         <div className="lg:col-span-6">
           <p className="text-[11px] tracking-[0.32em] uppercase text-muted-foreground mb-8">
-            Interior & Custom Furniture Studio
+            Bespoke Furniture · European Craftsmanship
           </p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.02] text-foreground">
-            Kosher Interiors
+            Luxury Kosher Interiors
             <br />
             <span className="italic text-accent">for Jewish Homes.</span>
           </h1>
           <p className="mt-8 max-w-lg text-lg leading-relaxed text-muted-foreground">
-            We design homes where beauty, function and Jewish tradition live together —
-            kitchens, cabinetry and rooms shaped around the rhythm of daily life.
+            Chava Interiors creates bespoke kitchens, dining rooms and family spaces
+            designed around Jewish tradition, Shabbat, kosher living and the real
+            rhythm of family life.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
               href="#about"
               className="inline-flex items-center justify-center h-12 px-7 bg-foreground text-background text-sm tracking-wide hover:bg-foreground/90 transition-colors rounded-sm"
             >
-              Explore Our Philosophy
+              Discover Our Approach
             </a>
             <a
               href="#contact"
               className="inline-flex items-center justify-center h-12 px-7 border border-foreground/30 text-foreground text-sm tracking-wide hover:border-foreground transition-colors rounded-sm"
             >
-              Start a Project
+              Start Your Project
             </a>
           </div>
         </div>
@@ -37,15 +38,15 @@ export function Hero() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-muted">
             <img
               src={heroImg}
-              alt="A serene, naturally lit kosher kitchen with separated meat and dairy zones and warm oak cabinetry"
+              alt="A serene kosher kitchen with separated meat and dairy zones, walnut cabinetry and warm natural light"
               width={1600}
-              height={1200}
+              height={2000}
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
           <p className="mt-4 text-xs tracking-wide text-muted-foreground italic">
-            Kosher design is not only about food. It is about creating a home where
-            daily rituals, tradition and beauty flow naturally.
+            Founded by Ewa Bukowiec — combining European craftsmanship with design
+            thinking, service design and deep respect for Jewish culture.
           </p>
         </div>
       </div>
