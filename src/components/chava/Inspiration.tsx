@@ -1,4 +1,5 @@
 import { SectionLabel } from "./SectionLabel";
+import { InspirationSlider } from "./InspirationSlider";
 
 const items = [
   { title: "Kabbalat Shabbat", text: "A welcoming threshold — candle niche, soft lighting, a calm transition from week to rest." },
@@ -38,6 +39,8 @@ export function Inspiration() {
             </li>
           ))}
         </ul>
+
+        <InspirationSlider />
       </div>
     </section>
   );
