@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { Nav } from "@/components/chava/Nav";
 import { Hero } from "@/components/chava/Hero";
 import { About } from "@/components/chava/About";
+import { Tagline } from "@/components/chava/Tagline";
 import { Inspiration } from "@/components/chava/Inspiration";
 import { Authorities } from "@/components/chava/Authorities";
 import { Projects } from "@/components/chava/Projects";
