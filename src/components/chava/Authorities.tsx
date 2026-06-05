@@ -41,11 +41,6 @@ export function Authorities() {
           ))}
         </div>
 
-        <p className="mt-10 max-w-2xl text-sm italic text-muted-foreground">
-          Final halachic decisions should always be confirmed with the client's own rabbi
-          or community authority. CHAVA designs in dialogue with your tradition — not in
-          place of it.
-        </p>
       </div>
     </section>
   );
