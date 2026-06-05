@@ -4,12 +4,31 @@ import hotplate from "@/assets/uploaded/hotplate.png";
 import netilatYadayim from "@/assets/uploaded/netilat-yadayim.png";
 import pesachStorage from "@/assets/uploaded/pesach-storage.png";
 import shabbatPrep from "@/assets/uploaded/shabbat-prep.png";
+import blech from "@/assets/uploaded/blech.png";
+import garden from "@/assets/uploaded/garden.png";
+import candles from "@/assets/uploaded/candles.png";
+import kiddush from "@/assets/uploaded/kiddush.png";
 
 const slides = [
   {
     src: shabbatPrep,
     title: "Shabbat Prep",
     text: "A dedicated wall for candles, challah and the rhythm of Friday.",
+  },
+  {
+    src: candles,
+    title: "Shabbat Candles",
+    text: "A safe, beautiful place for lighting — fireproof surface, gentle reflection, room for the bracha.",
+  },
+  {
+    src: kiddush,
+    title: "Kiddush",
+    text: "A dedicated cabinet and surface for the kiddush cup and wine, kept close to the table.",
+  },
+  {
+    src: blech,
+    title: "Blech",
+    text: "A planned cooktop zone for the Shabbat blech — heat-safe surround, clearance and easy reach.",
   },
   {
     src: hotplate,
@@ -30,6 +49,11 @@ const slides = [
     src: pesachStorage,
     title: "Pesach Storage",
     text: "A fully enclosed pantry for Pesach dishes and pots — opened once a year.",
+  },
+  {
+    src: garden,
+    title: "Garden & Sukkah",
+    text: "An outdoor extension of the home — sukkah footprint, herbs, shade and a quiet place for guests.",
   },
 ];
 
