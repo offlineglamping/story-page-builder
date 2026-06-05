@@ -17,15 +17,6 @@ export function Inspiration() {
           </p>
         </div>
 
-        <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10">
-          {items.map((item) => (
-            <li key={item.title} className="py-7 border-t border-border">
-              <h3 className="font-serif text-2xl text-foreground mb-2">{item.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{item.text}</p>
-            </li>
-          ))}
-        </ul>
-
         <InspirationSlider />
       </div>
     </section>
