@@ -7,7 +7,7 @@ import { Tagline } from "@/components/chava/Tagline";
 import { Inspiration } from "@/components/chava/Inspiration";
 import { Authorities } from "@/components/chava/Authorities";
 import { Projects } from "@/components/chava/Projects";
-import { Collection } from "@/components/chava/Collection";
+
 import { Contact } from "@/components/chava/Contact";
 import { Footer } from "@/components/chava/Footer";
 
@@ -42,7 +42,7 @@ function Index() {
         <Inspiration />
         <Authorities />
         <Projects />
-        <Collection />
+        
         <Contact />
       </main>
       <Footer />
