@@ -2,14 +2,13 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import mainDining from "@/assets/uploaded/main-dining-room.png";
 import sliderDining from "@/assets/uploaded/slider-dining-room.png";
-import d1 from "@/assets/uploaded/dining-aa.png";
 import d2 from "@/assets/uploaded/dining-ee-new.png";
 import d3 from "@/assets/uploaded/dining-room-2.png";
 import d4 from "@/assets/uploaded/dining-room-3.png";
 import d5 from "@/assets/uploaded/dining-room-4.png";
 import d6 from "@/assets/uploaded/dining-room-5.png";
 
-const images = [mainDining, sliderDining, d1, d2, d3, d4, d5, d6];
+const images = [mainDining, sliderDining, d2, d3, d4, d5, d6];
 
 export function DiningSlider() {
   const [i, setI] = useState(0);
