@@ -1,20 +1,6 @@
 import { SectionLabel } from "./SectionLabel";
 import { InspirationSlider } from "./InspirationSlider";
 
-const items = [
-  { title: "Kabbalat Shabbat", text: "A welcoming threshold — candle niche, soft lighting, a calm transition from week to rest." },
-  { title: "Kiddush", text: "A dedicated surface and cabinet for the kiddush cup and wine, kept within easy reach of the table." },
-  { title: "Lechem Mishneh", text: "A handcrafted challah board and cover, with storage that honours the weekly loaves." },
-  { title: "Havdalah", text: "A small ritual shelf — spice box, braided candle, a place to close the Shabbat with intention." },
-  { title: "Hafrashat Challah", text: "A baking corner with marble surface, flour drawers and a tucked-away mixer station." },
-  { title: "Bedikat Chametz", text: "Discreet wood-paneled drawers and corners designed to be searched, sealed and reopened with ease." },
-  { title: "Chametz Separation", text: "Cabinetry that separates and seals — distinct zones, finishes and hardware that read at a glance." },
-  { title: "Pesach Storage", text: "A dedicated, fully enclosed pantry for Pesach dishes, pots and pantry items, used once a year." },
-  { title: "Hachnasat Orchim", text: "Generous dining geometry, extendable tables, guest coats, water station — hospitality built into the plan." },
-  { title: "Ritual Handwashing", text: "A second basin at the entrance to the dining area, with a place for the cup and a linen towel." },
-  { title: "Sukkot Storage", text: "Tall, ventilated storage for schach poles, decor and folded canvas, ready for the holiday." },
-  { title: "Mezuzah Placement", text: "Doorframes considered as design — clean reveals, soft shadow lines, the mezuzah at home in the architecture." },
-];
 
 export function Inspiration() {
   return (
