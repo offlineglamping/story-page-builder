@@ -36,20 +36,16 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-6">
-          <div className="group relative aspect-[4/5] overflow-hidden rounded-sm bg-muted cursor-pointer">
+          <div className="group relative overflow-hidden rounded-sm bg-muted cursor-pointer">
             <img
               src={kuchniaBezOpisu}
               alt="Kosher kitchen without annotations"
-              width={1600}
-              height={2000}
-              className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ease-out"
+              className="block h-auto w-full object-contain transition-opacity duration-500 ease-out"
             />
             <img
               src={kuchniaZOpisem}
               alt="Kosher kitchen with annotations"
-              width={1600}
-              height={2000}
-              className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out"
+              className="absolute inset-0 h-full w-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out"
             />
           </div>
           <p className="mt-4 text-xs tracking-wide text-muted-foreground italic">
