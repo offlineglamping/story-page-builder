@@ -38,6 +38,7 @@ function Index() {
       <main>
         <Hero />
         <About />
+        <Tagline />
         <Inspiration />
         <Authorities />
         <Projects />
