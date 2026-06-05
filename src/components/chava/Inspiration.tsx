@@ -39,6 +39,8 @@ export function Inspiration() {
             </li>
           ))}
         </ul>
+
+        <InspirationSlider />
       </div>
     </section>
   );
