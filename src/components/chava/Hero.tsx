@@ -33,11 +33,6 @@ export function Hero() {
             <br />
             <span className="italic text-accent">for Jewish Homes.</span>
           </h1>
-          <p className="mt-8 max-w-lg text-lg leading-relaxed text-muted-foreground">
-            Chava Interiors creates bespoke kitchens, dining rooms and family spaces
-            designed around Jewish tradition, Shabbat, kosher living and the real
-            rhythm of family life.
-          </p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
               href="#about"
