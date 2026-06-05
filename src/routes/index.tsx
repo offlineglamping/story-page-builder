@@ -42,7 +42,7 @@ function Index() {
         <Inspiration />
         <Authorities />
         <Projects />
-        <Collection />
+        
         <Contact />
       </main>
       <Footer />
