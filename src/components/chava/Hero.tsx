@@ -1,7 +1,26 @@
-import kuchniaBezOpisu from "@/assets/uploaded/kuchnia-bez-opsu.jpg";
-import kuchniaZOpisem from "@/assets/uploaded/kuchnia-z-opisem.jpg";
+import { useEffect, useState } from "react";
+import mainKitchen from "@/assets/uploaded/main-kitchen.png";
+import mainLivingRoom from "@/assets/uploaded/main-living-room.png";
+import mainDiningRoom from "@/assets/uploaded/main-dining-room.png";
+import mainPantry from "@/assets/uploaded/main-pantry.png";
+
+const slides = [
+  { src: mainKitchen, alt: "Bespoke kosher kitchen" },
+  { src: mainLivingRoom, alt: "Family living room" },
+  { src: mainDiningRoom, alt: "Shabbat dining room" },
+  { src: mainPantry, alt: "Pesach pantry" },
+];
 
 export function Hero() {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setIndex((i) => (i + 1) % slides.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, []);
+
   return (
     <section id="home" className="relative pt-28 lg:pt-36 pb-20 lg:pb-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
@@ -36,18 +55,30 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-7">
-          <div className="group relative overflow-hidden rounded-sm bg-muted cursor-pointer">
-            <img
-              src={kuchniaBezOpisu}
-              alt="Kosher kitchen"
-              className="block h-auto w-full select-none"
-            />
-            <img
-              src={kuchniaZOpisem}
-              alt="Kosher kitchen with annotations"
-              aria-hidden="true"
-              className="pointer-events-none absolute inset-0 h-full w-full opacity-0 transition-opacity duration-700 ease-out group-hover:opacity-100"
-            />
+          <div className="relative overflow-hidden rounded-sm bg-muted aspect-[4/3]">
+            {slides.map((s, i) => (
+              <img
+                key={s.src}
+                src={s.src}
+                alt={s.alt}
+                className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ease-out ${
+                  i === index ? "opacity-100" : "opacity-0"
+                }`}
+              />
+            ))}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+              {slides.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  aria-label={`Show slide ${i + 1}`}
+                  onClick={() => setIndex(i)}
+                  className={`h-1.5 rounded-full transition-all ${
+                    i === index ? "w-8 bg-background" : "w-4 bg-background/50"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
