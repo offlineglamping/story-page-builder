@@ -4,8 +4,8 @@ import kuchniaZOpisem from "@/assets/uploaded/kuchnia-z-opisem.jpg";
 export function Hero() {
   return (
     <section id="home" className="relative pt-28 lg:pt-36 pb-20 lg:pb-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
-        <div className="lg:col-span-6">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        <div className="lg:col-span-5">
           <p className="text-[11px] tracking-[0.32em] uppercase text-muted-foreground mb-8">
             Bespoke Furniture · European Craftsmanship
           </p>
@@ -35,23 +35,20 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="lg:col-span-6">
+        <div className="lg:col-span-7">
           <div className="group relative overflow-hidden rounded-sm bg-muted cursor-pointer">
             <img
               src={kuchniaBezOpisu}
-              alt="Kosher kitchen without annotations"
-              className="block h-auto w-full object-contain transition-opacity duration-500 ease-out"
+              alt="Kosher kitchen"
+              className="block h-auto w-full select-none"
             />
             <img
               src={kuchniaZOpisem}
               alt="Kosher kitchen with annotations"
-              className="absolute inset-0 h-full w-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out"
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-0 h-full w-full opacity-0 transition-opacity duration-700 ease-out group-hover:opacity-100"
             />
           </div>
-          <p className="mt-4 text-xs tracking-wide text-muted-foreground italic">
-            Founded by Ewa Bukowiec — combining European craftsmanship with design
-            thinking, service design and deep respect for Jewish culture.
-          </p>
         </div>
       </div>
     </section>
