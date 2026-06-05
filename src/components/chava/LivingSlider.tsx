@@ -5,6 +5,8 @@ import sliderLiving from "@/assets/slider-living-room.png.asset.json";
 import salon2 from "@/assets/salon-2.png.asset.json";
 import salon3 from "@/assets/salon-3.png.asset.json";
 import salon4 from "@/assets/salon-4.png.asset.json";
+import salon8 from "@/assets/salon-8.png.asset.json";
+import salon9 from "@/assets/salon-9.png.asset.json";
 
 const images = [
   mainLiving,
@@ -12,6 +14,8 @@ const images = [
   salon2.url,
   salon3.url,
   salon4.url,
+  salon8.url,
+  salon9.url,
 ];
 
 export function LivingSlider() {
