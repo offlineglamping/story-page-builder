@@ -1,4 +1,5 @@
-import heroImg from "@/assets/uploaded/kuchnia-z-opisem.jpg";
+import kuchniaBezOpisu from "@/assets/uploaded/kuchnia-bez-opsu.jpg";
+import kuchniaZOpisem from "@/assets/uploaded/kuchnia-z-opisem.jpg";
 
 export function Hero() {
   return (
@@ -35,13 +36,20 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-6">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-muted">
+          <div className="group relative aspect-[4/5] overflow-hidden rounded-sm bg-muted cursor-pointer">
             <img
-              src={heroImg}
-              alt="A serene kosher kitchen with separated meat and dairy zones, walnut cabinetry and warm natural light"
+              src={kuchniaBezOpisu}
+              alt="Kosher kitchen without annotations"
               width={1600}
               height={2000}
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ease-out"
+            />
+            <img
+              src={kuchniaZOpisem}
+              alt="Kosher kitchen with annotations"
+              width={1600}
+              height={2000}
+              className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out"
             />
           </div>
           <p className="mt-4 text-xs tracking-wide text-muted-foreground italic">
