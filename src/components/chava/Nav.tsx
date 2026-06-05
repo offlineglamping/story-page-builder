@@ -28,10 +28,10 @@ export function Nav() {
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto max-w-7xl px-6 lg:px-10 h-16 flex items-center justify-between">
+      <nav className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
         <a
           href="#home"
-          className="font-serif text-xl tracking-[0.3em] text-foreground"
+          className="font-serif text-4xl tracking-[0.3em] text-foreground"
           aria-label="CHAVA — home"
         >
           CHAVA
