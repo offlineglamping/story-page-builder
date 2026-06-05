@@ -1,5 +1,6 @@
 import { SectionLabel } from "./SectionLabel";
 import { KitchenSlider } from "./KitchenSlider";
+import { DiningSlider } from "./DiningSlider";
 
 export function Projects() {
   return (
@@ -61,12 +62,48 @@ export function Projects() {
           <KitchenSlider />
         </article>
 
-        {/* Space 2 — placeholder */}
+        {/* Space 2 — Shabbat & Holiday Dining Collection */}
         <article className="border-t border-border pt-12 mt-20">
-          <h3 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
-            Space 2
+          <h3 className="font-serif text-3xl md:text-4xl text-foreground mb-6">
+            Shabbat & Holiday Dining Collection
           </h3>
-          <p className="text-muted-foreground italic">Content coming soon.</p>
+          <p className="font-serif text-xl md:text-2xl text-foreground/90 italic mb-8">
+            A bespoke dining collection designed around the rituals, hospitality
+            and beauty of Jewish family life.
+          </p>
+          <div className="space-y-5 text-muted-foreground leading-relaxed max-w-3xl">
+            <p>
+              The Shabbat & Holiday Dining Collection supports the rhythm of an
+              observant Jewish home — from Kabbalat Shabbat and candle lighting
+              to Kiddush, Lechem Mishneh, family meals, Yom Tov celebrations and
+              hachnasat orchim, the mitzvah of welcoming guests.
+            </p>
+            <p>
+              At the centre is a generous extendable family table, created for
+              Shabbat meals, holidays and large gatherings. Around it, every
+              element has a purpose: a dedicated Kiddush & Challah Sideboard, a
+              safe and elegant place for Shabbat candles, discreet storage for
+              silverware, linens and Judaica, and a refined Netilat Yadayim
+              Station for ritual handwashing before bread.
+            </p>
+            <p>
+              The room is planned to connect naturally with the kitchen, serving
+              areas and terrace or garden, supporting the seasonal rhythm of
+              Jewish life, including space for a sukkah during Sukkot.
+            </p>
+            <p>
+              Designed with natural oak, light stone, brushed brass, soft
+              textiles and warm lighting, the collection brings quiet luxury to
+              the rituals of the Jewish table.
+            </p>
+            <p className="text-foreground">
+              This is not simply a dining room.
+              <br />
+              It is a place for blessing, hosting, memory and tradition.
+            </p>
+          </div>
+
+          <DiningSlider />
         </article>
 
         {/* Space 3 — placeholder */}
