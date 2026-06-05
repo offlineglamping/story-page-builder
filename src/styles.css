@@ -64,7 +64,7 @@
   --muted-foreground: oklch(0.46 0.018 60);
 
   /* Warm tan / wood accent */
-  --accent: oklch(0.72 0.06 70);
+  --accent: oklch(0.62 0.07 60);
   --accent-foreground: oklch(0.18 0.012 60);
 
   --destructive: oklch(0.55 0.18 27);
@@ -91,7 +91,6 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
-    font-feature-settings: "ss01", "cv11";
     -webkit-font-smoothing: antialiased;
   }
 
