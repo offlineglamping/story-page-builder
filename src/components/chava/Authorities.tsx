@@ -23,9 +23,18 @@ export function Authorities() {
     <section id="authorities" className="py-24 lg:py-32 border-t border-border">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <SectionLabel number="03" label="Authorities" />
-        <h2 className="font-serif text-4xl md:text-5xl leading-tight text-foreground max-w-3xl">
+        <h2 className="font-serif text-4xl md:text-5xl leading-tight text-foreground whitespace-nowrap">
           Informed by Jewish scholarship and tradition.
         </h2>
+
+        <div className="mt-8 max-w-3xl space-y-4">
+          <p className="text-lg text-foreground whitespace-nowrap">
+            Informed by Jewish scholarship and tradition.
+          </p>
+          <p className="text-base text-muted-foreground leading-relaxed">
+            Designing for an observant Jewish home means understanding how tradition is lived — through kashrut, Shabbat, family meals, hospitality, ritual objects and the rhythm of the Jewish year. Our work is guided by respected Jewish sources and thinkers who help us approach the home with cultural sensitivity, practical intelligence and deep respect.
+          </p>
+        </div>
 
         <div className="mt-14 grid md:grid-cols-3 gap-px bg-border border border-border">
           {authorities.map((a) => (
