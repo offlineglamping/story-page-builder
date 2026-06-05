@@ -28,7 +28,7 @@ export function Contact() {
     <section id="contact" className="py-24 lg:py-32 border-t border-border">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-12 lg:gap-20">
         <div className="lg:col-span-5">
-          <SectionLabel number="05" label="Contact" />
+          <SectionLabel number="06" label="Contact" />
           <h2 className="font-serif text-4xl md:text-5xl leading-tight text-foreground">
             Create a home that understands your life.
           </h2>

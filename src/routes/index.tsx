@@ -6,6 +6,7 @@ import { About } from "@/components/chava/About";
 import { Inspiration } from "@/components/chava/Inspiration";
 import { Authorities } from "@/components/chava/Authorities";
 import { Projects } from "@/components/chava/Projects";
+import { Collection } from "@/components/chava/Collection";
 import { Contact } from "@/components/chava/Contact";
 import { Footer } from "@/components/chava/Footer";
 
