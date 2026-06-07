@@ -10,7 +10,7 @@ export function About() {
           <div className="lg:col-span-5">
             <div className="aspect-[4/5] overflow-hidden rounded-sm bg-muted">
               <img
-                src={founderImg}
+                src={founderImg.url}
                 alt="Ewa Bukowiec, founder of Chava Interiors, in a refined interior with bespoke furniture details"
                 width={1200}
                 height={1500}
