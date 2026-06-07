@@ -1,5 +1,5 @@
 import { SectionLabel } from "./SectionLabel";
-import founderImg from "@/assets/uploaded/chava-interiors-about.jpg";
+import founderImg from "@/assets/uploaded/chava-founder-portrait.jpg.asset.json";
 
 export function About() {
   return (
